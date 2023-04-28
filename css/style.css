@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+body {
+    background-color: #fff;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+}
+
+:root {
+    --btn: #fff;
+}
+
+header {
+    background: #26a69a;
+    padding: .5rem 1rem;
+    height: 50px;
+    text-align: center;
+}
+
+header h2 {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #fff;
+}
+
+.info {
+    color: #222;
+    display: block;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-large {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.btn-largespan {
+    color: #222;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 700;
+    margin-left: auto;
+    font-size: 16px;
+}
+
+.btn-lock img {
+    width: 26px;
+}
+
+p {
+    margin-top: 20px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
