@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <title>Bloqueado</title>
+</head>
+
+<body>
+    <header>
+        <h2>Bloqueado</h2>
+    </header>
+
+    <h1 class="info">Conclua as etapas para assistir ao filme</h1>
+
+    <p>Após concluir todas as etapas, clique no botão 'Assistir Filme' para carregar o filme automaticamente.</p>
+
+    <button onclick="return window.open('https://www.youtube.com/channel/UC5Xm20Vng_asrx-CZwEs2IQ');"
+        class="btn-large pulse"><span>INSCREVA-SE</span></button>
+
+    <script type="text/javascript">
+        const lock = document.getElementById('lock');
+        const unlock = document.getElementById('unlock');
+
+        lock.addEventListener('click', function () {
+            unlock.disabled = false;
+        });
+
+    </script>
+</body>
+
+</html>
